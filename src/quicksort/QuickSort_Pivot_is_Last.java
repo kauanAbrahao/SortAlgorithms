@@ -34,7 +34,7 @@ public class QuickSort_Pivot_is_Last {
 		}
 		aux = vet[i+1];
 		vet[i+1] = vet[r];
-		vet[r] = aux;
+		vet[r] = aux;	
 		
 		return i+1;
 
